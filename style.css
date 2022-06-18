@@ -308,14 +308,14 @@ color: rgba(250, 250, 250, 0.911);
         width: auto;
         
     }
-    .flex-container{
+    .flex-container {
         display: flex;
         align-content: center;
         align-items: center;
         text-align: center;
         font-family: poppins;
         padding: 30px 10px;
-        width: 370px;
+        width: 355px;
     
     }
     main #one{
@@ -341,13 +341,13 @@ color: rgba(250, 250, 250, 0.911);
        color:rgba(36, 36, 36, 0.692);
       }
     
-    .build{
+      .build {
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
         text-align: center;
-        width: 375px;
+        width: 360px;
         font-family: poppins;
     }
     .mockup img{
@@ -374,23 +374,23 @@ color: rgba(250, 250, 250, 0.911);
     
 
     /*Details section using Grid*/
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 40px;
-    margin: 10px;
-    padding: 60px 0;
-    padding-bottom: 200px;
-}
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 40px;
+        margin: 10px;
+        padding: 60px 0;
+        padding-bottom: 200px;
+    }
   
-.grid-container > div {
-    box-shadow: 0px 0px 8px 0px rgb(185 185 185 / 31%);
-    text-align: center;
-    border: 5px;
-    border-radius: 9px;
-    padding: 10px 0;
-    font-size: 18px;
-  }
+    .grid-container > div {
+        box-shadow: 0px 0px 8px 0px rgb(185 185 185 / 31%);
+        text-align: center;
+        border: 5px;
+        border-radius: 9px;
+        padding: 10px 0;
+        font-size: 18px;
+    }
   
   .item1,.item2, .item3 {
     grid-column-start: 1;
@@ -403,22 +403,22 @@ font-weight: 600;
 color: hsl(192, 100%, 9%);
   }
 
-  .grid-container p{
+  .grid-container p {
     font-family: 'open sans';
     color: hsla(0, 0%, 31%, 0.76);
-    font-size: 18px;
-      }
-.f-container {
+    font-size: 16px;
+}
+      .f-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         align-content: center;
-        padding: 10px 30px;
+        padding: 10px 0px;
         flex-direction: column-reverse;
     }
 
-.illus img {
-        max-width: 300px;
+    .illus img {
+        max-width: 260px;
         height: auto;
     }
 
@@ -429,8 +429,10 @@ color: hsl(192, 100%, 9%);
 .text {
     text-align: center;
     max-width: 360px;
+    width: 320px;
     line-height: 26px;
     margin-top: 30px;
+    padding: 0px 5px;
 }
 
 #f-text {
